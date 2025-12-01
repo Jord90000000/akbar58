@@ -1,9 +1,16 @@
-let сан1 = prompt('биринчи сан')
-let сан2 = prompt('экинчи сан')
+let student = {
+    name: "akbar",
+    age:"17",
+    class:"1",
+    hobby:"Game online"
 
-function kemit(сан1,сан2){
-    let result = сан1 - сан2;
-    alert('Жооп:' + result);  
 }
 
-kemit(сан1,сан2)
+console.log(student);
+
+student.name = "Hunterback"
+student.class = 2
+student.hobby = "Mobile games"
+student.age = 18
+
+console.log(student);
